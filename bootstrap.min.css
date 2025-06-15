@@ -1,0 +1,23 @@
+/* Scrollbar özelleştirme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:turquoise;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: turquoise;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* saydam siyah */
+  backdrop-filter: blur(5px); /* arka planı biraz bulanıklaştırır */
+}

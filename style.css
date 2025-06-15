@@ -1,0 +1,60 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3; /* dikey poster oranı */
+    object-fit: cover;
+}
+
+
+.card-body {
+    background-color: #111;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #f40612;
+}
+
+.navbar, .navbar a {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: #e50914;
+}
+
+input#filmArama {
+    background-color: #111;
+    border: 1px solid #e50914;
+    color: white;
+}
+input#filmArama::placeholder {
+    color: #bbb;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
